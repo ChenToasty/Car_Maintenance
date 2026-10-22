@@ -1,0 +1,16 @@
+site_name: Car Maintenance Tracker Documentation
+site_description: Documentation for the Car Maintenance Tracker system and subsystems.
+theme:
+  name: material
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [.] 
+          options:
+            docstring_style: google
+            show_source: true
+            heading_level: 3
+nav:
+  - Home: index.md
