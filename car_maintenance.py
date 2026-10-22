@@ -35,6 +35,7 @@ def checkOil(current_mileage, last_oil_change):
 
     if miles_driven >= 3000:
         print("\nYour oil change is due.")
+        print("Please schedule an oil change soon.")
     else:
         miles_left = 3000 - miles_driven
         print(f"\nOil change is due in {miles_left} miles.")
