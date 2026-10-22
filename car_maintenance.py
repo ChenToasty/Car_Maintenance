@@ -61,6 +61,7 @@ def checkTires(current_mileage, last_tire_rotation):
 
     if miles_driven >= 5000:
         print("\nYour tire rotation is due.")
+        print("Please schedule a tire rotation soon.")
     else:
         miles_left = 5000 - miles_driven
         print(f"\nTire rotation is due in {miles_left} miles.")
